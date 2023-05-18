@@ -13,9 +13,7 @@ data.gamma_max = deg2rad(0.25);
 
 %% Solve problem
 [sol, err] = vcp_bk_solve(socp,data);
-if(any(err))
-  error("Infeasible")
-end
+assert(~err,"Infeasible")
 
 %% Recover State-space
 [x, u, t] = vcp_bk_inflate(sol, 0.01);
