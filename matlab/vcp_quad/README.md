@@ -6,15 +6,16 @@ Guarantees](https://ieeexplore.ieee.org/document/10068121).
 
 If you use this code, we would appreciate it if you cited the paper as follows:
 ```
-@article{freire2021flatness,
+@article{freire2023flatness,
+  title={Flatness-based quadcopter trajectory planning and tracking with continuous-time
+safety guarantees},
   author={Freire, Victor and Xu, Xiangru},
   journal={IEEE Trans. Control Syst. Technol.},
-  title={Flatness-Based Quadcopter Trajectory Planning and Tracking With
-Continuous-Time Safety Guarantees},
-  year={early access. 2023},
-  volume={},
-  number={},
-  pages={1-16},
+  year={2023},
+  volume={31},
+  number={6},
+  pages={2319-2334},
+  publisher={IEEE}
   doi={10.1109/TCST.2023.3250954}
 }
 ```
